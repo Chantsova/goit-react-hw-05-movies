@@ -1,0 +1,32 @@
+.cast {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(192, 165, 142);
+}
+
+.cast__title {
+  font-size: 28px;
+}
+
+.cast__list {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+.cast__item {
+  margin: 20px;
+}
+
+.cast__img {
+  width: 150px;
+  height: 225px;
+}
+
+.cast__subtitle {
+  font-size: 18px;
+  font-style: italic;
+  text-align: center;
+}

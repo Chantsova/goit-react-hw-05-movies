@@ -1,0 +1,11 @@
+.reviews {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: rgb(192, 165, 142);
+}
+
+.reviews__title {
+  font-size: 28px;
+}

@@ -1,0 +1,8 @@
+.goBack__btn {
+  font-size: 22px;
+}
+
+.goBack__btn:hover,
+.goBack__btn:focus {
+  box-shadow: rgba(255, 255, 255, 0.15) 0px 10px 10px;
+}

@@ -1,0 +1,41 @@
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.navigation__logo {
+  margin-left: 100px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 35px;
+  font-weight: 600;
+  text-decoration: none;
+  text-shadow: rgba(241, 227, 227, 0.4) 0px 8px 8px,
+    rgba(41, 37, 37, 0.4) 5px 2px 1px;
+  color: #110f0e;
+}
+
+.navigation__menu {
+  margin-right: 150px;
+}
+
+.navigation__name {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  margin-left: 100px;
+  color: rgb(70, 55, 42);
+}
+
+.navigation__name:hover,
+.navigation__name:focus {
+  color: rgb(197, 162, 133);
+}
+
+.navigation__name--active {
+  font-size: 28px;
+  text-decoration: none;
+  color: rgb(131, 103, 80);
+}

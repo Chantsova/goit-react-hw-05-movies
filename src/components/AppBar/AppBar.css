@@ -1,0 +1,10 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 110px;
+  box-shadow: rgba(68, 50, 50, 0.35) 0px 6px 4px;
+  background: url('../../img/tape.png'),
+    linear-gradient(45deg, rgba(124, 100, 89, 0.7), rgba(0, 0, 0, 1));
+  background-repeat: no-repeat;
+}
