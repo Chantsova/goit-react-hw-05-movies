@@ -34,7 +34,7 @@ export default function Cast({ id }) {
             </li>
           ))
         ) : (
-          <li>Reviews is not defined</li>
+          <li>Cast is not defined</li>
         )}
       </ul>
     </div>

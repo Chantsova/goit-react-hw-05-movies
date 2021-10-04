@@ -25,7 +25,7 @@ export default function MoviesList({ movies, route, query }) {
                 alt={movie.original_title}
               />
             )}
-            <div className="movies__title">{movie.title}</div>
+            <div className="movies__title">{movie.title ? movie.title : "Unknown movie"}</div>
           </NavLink>
         </li>
       ))}
